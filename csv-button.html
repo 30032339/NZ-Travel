@@ -2,7 +2,7 @@
 <html lang="en">
     <head><title>DATA</title>
         <meta charset="utf-8">
-        <link rel="stylesheet" href="/css/style.css"> 
+        <link rel="stylesheet" href="./css/style.css"> 
     </head>
 <body>
         <nav>
@@ -37,11 +37,11 @@
 
         <p class="databutton_container"><button class="databtn" type="button" onclick="mytable()">RUN_CSV_IMPORT_SCRIPT</button></p>
 
-    <script src="/js/d3.v3.min.js"></script> 
+    <script src="./js/d3.v3.min.js"></script> 
 
     <script> 
         function mytable() {
-            d3.text("/csv/data.csv", function(data) {
+            d3.text("./csv/data.csv", function(data) {
                 var parsedCSV = d3.csv.parseRows(data);
                 var container = d3.select("body")
                     .append("table")
