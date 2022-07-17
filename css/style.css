@@ -240,7 +240,8 @@ section{
 /* main css */
 .bg{
     width: 100%;
-    height:80vh;
+    /* height:80vh; */
+    height:auto;
     background: white;
     background-repeat: no-repeat;
     background-size: cover;
@@ -261,9 +262,9 @@ section{
 .containerl{
     margin: 100px auto;
     display: flex;
-    position: absolute;
+    position:relative;
     flex-wrap: wrap;
-    justify-content: space-around;
+    /* justify-content: space-around; */
 }
 .card{
     position: relative;
@@ -316,16 +317,17 @@ section{
 }
 
 .hed{
-    position: absolute;
+    position:absolute;
     top: 0;
     font-size: 30px;
     text-align: center;
     font-family:Comic Sans MS, Comic Sans, cursive;
     color: cornflowerblue;
-    height: 100px;
+    height: 350px;
     width: 100%;
 }
 .tit{
+    margin-bottom: 100px;
     color: crimson;
 }
 /* about page */
@@ -385,19 +387,19 @@ section{
   }
   
   .slide1 {
-    background-image: url("./img/img1.jpg");
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/268/763/811/landscape-photography-of-mountain-and-body-of-water-lake-titicaca-lake-titicaca-wallpaper-preview.jpg");
   }
   .slide2 {
-    background-image: url("./img/img2.jpg");
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/391/642/393/reflective-photography-of-mountain-near-body-of-water-surrounded-by-trees-wallpaper-preview.jpg");
   }
   .slide3 {
     background-image: url("https://www.visitboi.co.nz/wp-content/uploads/2018/03/science-vibe.jpg");
   }
   .slide4 {
-    background-image: url("./img/img4.jpg");
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/965/518/571/reflection-nature-water-sky-wallpaper-preview.jpg");
   }
   .slide5 {
-    background-image: url("./img/img5.jpg");
+    background-image: url("https://images.pexels.com/photos/261397/pexels-photo-261397.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
   }
   .slide6{
       background-image: url("http://www.hickerphoto.com/images/1024/kaikoura-pictures_15155.jpg");
